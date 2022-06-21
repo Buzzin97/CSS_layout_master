@@ -6,5 +6,5 @@
 
 - ## 0621 DAY 2
 - display block inline 타입 이해하기
-- flex box의 main axis is row // cross axis is colum
-- property row .. justify-content // colum .. align-items
+- flex box의 main axis is row // cross axis is column
+- property row .. justify-content // column .. align-items
