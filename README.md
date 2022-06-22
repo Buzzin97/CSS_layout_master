@@ -8,3 +8,8 @@
 - display block inline 타입 이해하기
 - flex box의 main axis is row // cross axis is column
 - property row .. justify-content // column .. align-items
+
+- ## 0622 DAY 3
+- css sclector 연습
+- madia쿼리 사용  // media@ screen and (  )  and ( ) {  } // + orientation: lanscape
+- 애니메이션 효과, transition & tranform
