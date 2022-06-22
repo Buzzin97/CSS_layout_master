@@ -13,3 +13,4 @@
 - css sclector 연습
 - madia쿼리 사용  // media@ screen and (  )  and ( ) {  } // + orientation: lanscape
 - 애니메이션 효과, transition & tranform
+.... 카카오톡 클론코딩 후 css layout 연습할거임... bye!
