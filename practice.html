@@ -24,13 +24,19 @@
       position: absolute;
       bottom: 0px;
       right: 0px;
+    }
 
+    input {
+      border: 1px solid wheat;
+    }
+   
+    input:required {
+    border-color: blue;
     }
   </style>
 </head>
 <body>
-   <div>
-    <div class="ge"></div>
-   </div>
+  <input type="text" placeholder="username">
+  <input type="password" placeholder="password" required>
 </body>
 </html>
