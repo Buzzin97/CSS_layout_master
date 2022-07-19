@@ -9,12 +9,15 @@
     height: 200px;
     background-color: black;
     color: white;
+    font-size: 50px;
 }
 
 /* align-self는 한요소만 flex를 줄 수 있다. */
-.child:nth-child(2) {
-    align-self: center;
+/* order는 기본값으로 0을 가지고 있다 */
+
+.child:nth-child(1) {
+    order: 1;
 }
-.child:nth-child(3) {
-    align-self: flex-end;
+.child:nth-child(2) {
+    order: 2;
 }
