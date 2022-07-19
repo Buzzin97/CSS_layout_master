@@ -15,3 +15,7 @@
 - 애니메이션 효과, transition & tranform
 .... 카카오톡 클론코딩 후 css layout 연습할거임
 ... bye!!!
+
+- ## 0719 DAY 4
+- flexbox & gird 연습하기
+- 챌린지는 challenge애 커밋할 
