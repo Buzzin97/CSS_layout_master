@@ -18,11 +18,9 @@
 
 .child:nth-child(2) {
     background-color: black;
-    flex-shrink: 3;
+    flex-grow: 2;
 }
-.child:nth-child(3) {
-    flex-shrink: 5;
-}
+
 
 /* align-self는 한요소만 flex를 줄 수 있다. */
 /* order는 기본값으로 0을 가지고 있다 */
