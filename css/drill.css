@@ -3,18 +3,25 @@
     justify-content: space-around;
     align-content: center;
     height: 100vh;
-    flex-wrap: wrap;
 }
 
 .child {
-    width: 200px;
+    width: 400px;
     height: 200px;
-    background-color: black;
+    background-color: moccasin;
     color: white;
     font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.child:nth-child(2) {
+    background-color: black;
+    flex-shrink: 3;
+}
+.child:nth-child(3) {
+    flex-shrink: 5;
 }
 
 /* align-self는 한요소만 flex를 줄 수 있다. */
