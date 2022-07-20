@@ -2,27 +2,20 @@
   display: grid;
   gap: 10px;
   height: 50vh;
-  grid-template: 
-    "header header header header" 1fr 
-    /* coulmn과  row의 높이를 1fr로 지정했다.*/
-    "content content content nav" 2fr
-    "footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr
-  ;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  place-items: stretch center;
 }
 
 .header {
   background-color: aquamarine;
-  grid-area: header;
 }
 .content {
   background-color: aqua;
-  grid-area: content;
 }
 .nav {
   background-color: blueviolet;
-  grid-area: nav;
 }
 .footer {
   background-color: orange;
-  grid-area: footer;
 }
