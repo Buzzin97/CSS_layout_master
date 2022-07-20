@@ -20,3 +20,8 @@
 - flexbox & gird 연습하기
 - 챌린지는 challenge애 커밋할 
 - https://flexboxfroggy.com/#ko
+
+- ## 0720 DAY 5
+- grid 개념 공부
+- grid 템플릿 만들어보자
+- https://cssgridgarden.com/#ko
