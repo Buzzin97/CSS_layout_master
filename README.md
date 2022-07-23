@@ -25,3 +25,6 @@
 - grid 개념 공부
 - grid 템플릿 만들어보자
 - https://cssgridgarden.com/#ko
+
+- ## 0725 
+- 코드 챌린지 시작
