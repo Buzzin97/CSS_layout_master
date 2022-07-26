@@ -29,3 +29,7 @@
 - ## 0725 
 - 코드 챌린지 시작
 - scss
+
+- ## 0726
+- live scss compiler
+- variable $ , minxin @include , extend % 
