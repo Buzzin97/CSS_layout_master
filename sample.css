@@ -1,5 +1,19 @@
+a {
+  margin-top: 10px;
+}
+a:nth-child(odd) {
+  text-decoration: none;
+  display: block;
+  color: blue;
+}
+a:nth-child(even) {
+  text-decoration: none;
+  display: block;
+  color: red;
+}
+
 body {
-  background: blue;
+  background: whitesmoke;
 }
 
 h2 {
