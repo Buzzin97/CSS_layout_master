@@ -4,7 +4,20 @@ body {
   background: $bg;
 }
 
-h1 {
+h2 {
   color: red;
   font-size: $title;
+}
+
+.box {
+  margin-top: 20px;
+  h2 {
+    color: whitesmoke;
+    &:hover {
+      color: forestgreen;
+    }
+  }
+  button {
+    color: #e89;
+  }
 }

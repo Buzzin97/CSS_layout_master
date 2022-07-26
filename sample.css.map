@@ -1,1 +1,1 @@
-{"version":3,"sources":["sample.scss","_variables.scss","sample.css"],"names":[],"mappings":"AAEA;EACE,gBCFG;ACCL;;AFIA;EACE,UAAA;EACA,eCNM;ACKR","file":"sample.css"}
+{"version":3,"sources":["sample.scss","_variables.scss","sample.css"],"names":[],"mappings":"AAEA;EACE,gBCFG;ACCL;;AFIA;EACE,UAAA;EACA,eCNM;ACKR;;AFIA;EACE,gBAAA;AEDF;AFEE;EACE,iBAAA;AEAJ;AFCI;EACE,kBAAA;AECN;AFEE;EACE,WAAA;AEAJ","file":"sample.css"}

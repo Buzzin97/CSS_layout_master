@@ -2,7 +2,20 @@ body {
   background: blue;
 }
 
-h1 {
+h2 {
   color: red;
   font-size: 32px;
+}
+
+.box {
+  margin-top: 20px;
+}
+.box h2 {
+  color: whitesmoke;
+}
+.box h2:hover {
+  color: forestgreen;
+}
+.box button {
+  color: #e89;
 }/*# sourceMappingURL=sample.css.map */
