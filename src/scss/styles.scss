@@ -78,7 +78,7 @@ main {
         transparent,
         transparent
       )
-      $red;
+      $blue;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -109,3 +109,33 @@ main {
     }
   }
 }
+
+
+@media (max-width: 700px) {
+	header {
+    display: none;
+			}
+		}
+		.main__content {
+			padding: 32px;
+			.wrapper {
+				.moive__header {
+					font-size: 7px;
+					display: block;
+					margin: 0 auto;
+					h4 {
+						margin-bottom: 24px;
+					}
+					h3 {
+						display: none;
+					}
+				}
+				img {
+					height: 250px;
+					width: 300px;
+					margin: 0 auto;
+
+				}
+			}
+		}
+
