@@ -33,3 +33,14 @@
 - ## 0726
 - live scss compiler
 - variable $ , minxin @include , extend % 
+
+- ## 0727 - 0728
+- grid template 연습
+- codechallenge에 업데이트
+
+- ## 0729
+- clone csslayout 1
+- https://buzzin97.github.io/CSS_layout_master/
+
+- ## 0730
+- clone csslayout2
