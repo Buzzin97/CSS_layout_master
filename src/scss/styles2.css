@@ -104,12 +104,18 @@ nav ul .nav__menu {
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-bottom: 10px;
 }
 .hero h3 {
   font-size: 48px;
-  width: 35%;
+  width: 80%;
   text-align: center;
   margin-bottom: 50px;
+  transition: color 0.3s linear, background 0.3s linear;
+}
+.hero h3:hover {
+  background-color: rgb(8, 8, 8);
+  color: white;
 }
 .hero a {
   width: 10%;
@@ -123,10 +129,11 @@ nav ul .nav__menu {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 10px;
+  border-radius: 15px;
   transition: color 0.3s linear, background 0.3s linear;
 }
 .hero a:hover {
-  background-color: black;
+  background-color: aqua;
   color: white;
 }
 .hero .under-hero {
