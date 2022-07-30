@@ -164,7 +164,7 @@ nav ul .nav__menu {
   border: 1px solid black;
   padding: 20px;
 }
-.hero .under-hero img,
-.hero .under-hero div {
+.hero .under-hero .under-hero__content .wrapper img,
+.hero .under-hero .under-hero__content .wrapper div {
   width: 50%;
 }/*# sourceMappingURL=styles2.css.map */
