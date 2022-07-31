@@ -60,7 +60,7 @@ table {
 body {
   font-family: "Gugi", cursive;
   background-color: whitesmoke;
-  height: 500vh;
+  height: 350vh;
   width: 100%;
 }
 
@@ -298,4 +298,35 @@ nav ul .nav__menu {
 }
 .gallery .gallery__poster img:hover {
   opacity: 0.5;
+}
+
+footer {
+  padding: 60px;
+  border-top: 2px solid white;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+}
+footer .column {
+  display: flex;
+  color: whitesmoke;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+footer span {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+footer ul {
+  text-align: center;
+  padding: 10px;
+}
+footer ul li {
+  margin-bottom: 15px;
+}
+footer ul:nth-child(2) {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
 }/*# sourceMappingURL=styles2.css.map */

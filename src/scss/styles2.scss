@@ -9,7 +9,7 @@
 body {
   font-family: 'Gugi', cursive;
   background-color: whitesmoke;
-  height: 500vh;
+  height: 350vh;
   width: 100%;
 }
 
@@ -248,6 +248,37 @@ nav {
       &:hover {
         opacity: 0.5;
       }
+    }
+  }
+}
+
+footer {
+  padding: 60px;
+  border-top: 2px solid white;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  .column{
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  span{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  ul {
+    text-align: center;
+    padding: 10px;
+    li {
+      margin-bottom: 15px;
+      }
+    &:nth-child(2) {
+      border-right: 1px solid white;
+      border-left: 1px solid white;
     }
   }
 }
