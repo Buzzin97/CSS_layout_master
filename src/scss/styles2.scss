@@ -114,6 +114,12 @@ nav {
     height: 67vh;
     object-fit: cover;
     background-color: black;
+    opacity: 1;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+      &:hover {
+        opacity: .5;
+      }
    }
   .under-hero__content {
     display: flex;
@@ -160,8 +166,8 @@ nav {
   padding: 100px;
   justify-content: center;
   gap: 10px;
-  grid-template-columns: 300px 300px;
-  grid-template-rows:  400px 400px;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows:  400px;
   .blog__post {
     display: flex;
     justify-content: center;
@@ -189,6 +195,14 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 1;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+      &:hover {
+        background-color: cadetblue;
+        border-radius: 30px;
+        color: aliceblue;
+      }
     span {
       margin-bottom: 15px;
     }
@@ -196,5 +210,31 @@ nav {
       text-align: center;
       line-height: 2;
     }
+    a {
+    width: 30%;
+    background-color: white;
+    padding: 20px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: color 0.3s linear, background 0.3s linear;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+    }
   }
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 410px);
 }
