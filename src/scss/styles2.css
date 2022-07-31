@@ -233,10 +233,18 @@ nav ul .nav__menu {
 }
 .blog .blog__content {
   background-color: aliceblue;
+  font-size: 20px;
   display: flex;
   width: 100%;
   height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.blog .blog__content span {
+  margin-bottom: 15px;
+}
+.blog .blog__content ul {
+  text-align: center;
+  line-height: 2;
 }/*# sourceMappingURL=styles2.css.map */
