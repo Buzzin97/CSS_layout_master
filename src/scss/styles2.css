@@ -192,9 +192,14 @@ nav ul .nav__menu {
   line-height: 1.3;
 }
 .under-hero .under-hero__content .wrapper a {
-  border: 1px solid black;
   padding: 10px;
+  border: 1px solid black;
   text-decoration: none;
+  transition: color 0.3s linear, background 0.3s linear;
+}
+.under-hero .under-hero__content .wrapper a:hover {
+  background-color: black;
+  color: white;
 }
 .under-hero .under-hero__content div {
   width: 80%;
@@ -218,8 +223,13 @@ nav ul .nav__menu {
   height: 100%;
 }
 .blog .blog__post img {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
   width: 100%;
   height: 100%;
+}
+.blog .blog__post img:hover {
+  opacity: 0.5;
 }
 .blog .blog__content {
   background-color: aliceblue;
