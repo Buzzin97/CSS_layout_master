@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 200px;
+      height: 200px;
+      background-color: mediumseagreen;
+      transform: translate(-50%,-50%); /* 자기 자신(크기)의 퍼센트지 만큼 이동한다. 
+      여기서는 100px를 이동한다.   
+      사용하는 부모요소가 없거나 애매할땐, 
+      position을 지정해주고, top left를 50%씩 준다.(왼쪽 모서리 기준이된다.)
+      왼쪽 모서리 기준을 없애주기위해서 transform: translate(-50%,-50%) 해준다.
+      그러면 중앙정렬이 완료된다.
+      */
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
