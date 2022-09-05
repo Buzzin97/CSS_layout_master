@@ -40,10 +40,21 @@
 
 - ## 0729
 - clone csslayout 1
+- horror screen
 - https://buzzin97.github.io/CSS_layout_master/
 
 - ## 0730
 - clone csslayout2
+- paint box coding
 
 - ## 0731
 - clone csslayout2 
+- paint box coding 완성
+
+- ## 0803
+- clome csslayout3
+- 10 x 19 coding
+- 시작하기
+
+- ## 0815
+챌린지 끝
